@@ -12,7 +12,7 @@ examples = [
     {"name": 'Weather Scenario', "program" : "simulation-all-1.0-SNAPSHOT.jar", "match" : r'Successes %: ([0-9]+\.[0-9]*)'},
     ]
 
-numberOfExecutions = 3000
+numberOfExecutions = 1000
 
 print("{}: Start".format(datetime.datetime.now()))
 with open('experiments_results.csv', 'w', newline='') as csvfile:
