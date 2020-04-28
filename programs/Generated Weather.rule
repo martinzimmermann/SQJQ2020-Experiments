@@ -1,0 +1,7 @@
+lidar_ok.
+radar_ok.
+camera_ok.
+camera_ok -> +objectDetected actions.detectObjectWithCamera [0.32672783280626116, 0.8291299100196624, 0.8374017642841604].
+lidar_ok -> +objectDetected actions.detectObjectWithLiDAR [1, 0.699598736800096, 0.12693297081015364].
+radar_ok -> +objectDetected actions.detectObjectWithRADAR [0.27785350459358016, 0.5913889693574242, 0.6696486256642918].
+objectDetected -> #objectProcessed -objectDetected actions.processObject.

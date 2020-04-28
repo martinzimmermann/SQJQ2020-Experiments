@@ -1,0 +1,7 @@
+lidar_ok.
+radar_ok.
+camera_ok.
+camera_ok -> +objectDetected actions.detectObjectWithCamera.
+lidar_ok -> +objectDetected actions.detectObjectWithLiDAR.
+radar_ok -> +objectDetected actions.detectObjectWithRADAR.
+objectDetected -> #objectProcessed	-objectDetected	actions.processObject.
